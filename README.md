@@ -4,6 +4,8 @@ A simple BMI (Body Mass Index) Calculator web application that allows users to c
 
 **Note: This mini-project is part of an assignment for the RevoU Course program.**
 
+![BMI Calculator](Screenshot_2024-08-15_172234.png)
+
 ##  Table of Contents
 
 -  [Features](#features)
