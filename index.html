@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bmi-calculator">
+            <h2 class="judul_kalkulatorbmi">Kalkulator BMI</h2>
+            <p class="description">Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
+            <form id="bmiForm" class="bmi-box">
+                <div class="input-group">
+                    <label>Jenis Kelamin</label>
+                    <div class="radio-group">
+                    <input type="radio" name="gender" value="Pria"> 
+                    <label for="gender">Pria</label>
+                    <input type="radio" name="gender" value="Wanita">
+                    <label for="gender">Wanita</label>
+                </div>
+                </div>
+                <div class="input-group">
+                    <label>Berat Badan (kg)</label>
+                    <input type="number" id="weight" required>
+                </div>
+                <div class="input-group">
+                    <label>Usia (tahun)</label>
+                    <input type="number" id="age" required>
+                </div>
+                <div class="input-group">
+                    <label>Tinggi Badan (cm)</label>
+                    <input type="number" id="height" required>
+                </div>
+                <button class="hitung" type="button" onclick="calculateBMI()">Hitung BMI</button>
+                <button class="ulang" type="reset">Reset</button>
+            </form>
+
+            <div class="feature-list">
+                <h3>Keunggulan fitur</h3>
+                <ul>
+                    <li>Menghitung berat badan</li>
+                    <li>Menentukan kategori berat badan ideal atau tidak</li>
+                    <li>Mempersiapkan program penurunan berat badan</li>
+                </ul>
+            </div>
+            <p class="warning description">*WARNING! Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh menggunakan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+            <p class="description">Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M².</p>
+        </div>
+
+        <div class="bmi-result">
+            <h2 class="judul_hasilbmi">Hasil</h2>
+            <div class="result-box">
+                <h3 id="bmiValue" class="bmi-value">0.0</h3>
+                <p id="bmiCategory" class="bmi-category"">Hasil BMI Anda</p>
+                <a href="#" class="download-btn">Download Hasil BMI</a>
+                <p id="tolong-masukangka">*Tolong masukkan angka terlebih dahulu</p>
+                <p id="rentangbmi" style="margin-bottom: 20px;"></p>
+                <p id="keterangan-diagnosa" class="description"></p>
+            </div>
+            <p class="description">BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p>
+            <div class="result-actions">
+                <a href="#">Konsultasi Ahli Gizi Via Aplikasi</a>
+                <a href="#">Registrasi Online Ahli Gizi</a>
+            </div>
+            <br>
+            <div class="result-box">
+                <h3>Beberapa penyakit yang berasal dari kegemukan</h3>
+                <ul>
+                    <li>Diabetes</li>
+                    <li>Hipertensi</li>
+                    <li>Sakit Jantung</li>
+                    <li>Osteoarthritis</li>
+                </ul>
+                <div class="result-actions">
+                    <a href="#">Konsultasi Dokter Via Aplikasi</a>
+                    <a href="#">Registrasi Online Sekarang</a>
+                </div>
+            </div>
+            <h4 class="dlapp">Download Aplikasi</h4>
+            <div class="app-download-buttons">
+                <a href="#" class="app-store">
+                    <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" alt="Download on the Google Play">
+                </a>
+                <a href="#" class="app-store">
+                    <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" alt="Download on the App Store">
+                </a>
+            </div>
+            <footer>
+                &copy; Peserta: Abu Abdirrahman Humaid Al-Atsary
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

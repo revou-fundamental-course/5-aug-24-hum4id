@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.bmi-calculator,
+.bmi-result {
+  width: 45%;
+}
+
+h2 {
+  color: #333;
+}
+
+.judul_kalkulatorbmi,
+.judul_hasilbmi {
+  margin-bottom: 35px;
+}
+
+.result-box ul li {
+  list-style: none;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.input-group label {
+  margin-bottom: 12px;
+}
+
+.hitung {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  font-weight: bold;
+  width: 30%;
+  border-radius: 6px;
+}
+
+.ulang:hover {
+  background-color: #d1d1d1;
+}
+.ulang {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  font-weight: bold;
+  color: #000000;
+  width: 20%;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.result-box h3.keterangan-bmi {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+.radio-group label {
+  display: inline;
+}
+
+button {
+  background-color: #12b1a9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #12928c;
+}
+
+.bmi-box {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #f3f6f8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.result-box {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #f3f6f8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.result-box h3 {
+  color: #12b1a9;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.result-box h3.bmi-value {
+  font-size: 50px;
+}
+
+.result-box p.bmi-category {
+  margin-bottom: 40px;
+}
+
+.result-box p {
+  margin: 5px 0;
+}
+
+.download-btn {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #12b1a9;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: 20px 0;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background-color: #12928c;
+}
+
+.result-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.result-actions a {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #12b1a9;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  margin: 5px;
+}
+
+.result-actions a:hover {
+  background-color: #12928c;
+}
+
+p.warning {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 35px;
+}
+
+.feature-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feature-list li {
+  margin-bottom: 10px;
+}
+
+.warning {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+p.description {
+  text-align: justify;
+}
+.app-download-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-store img {
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.app-store img:hover {
+  transform: scale(1.1);
+}
+
+.dlapp {
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
