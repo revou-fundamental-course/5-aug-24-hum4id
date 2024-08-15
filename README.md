@@ -12,14 +12,6 @@ A simple BMI (Body Mass Index) Calculator web application that allows users to c
 
 -  [Technologies Used](#technologies-used)
 
--  [Getting Started](#getting-started)
-
--  [Usage](#usage)
-
--  [Contributing](#contributing)
-
--  [License](#license)
-
 ##  Features
 
 - Calculate BMI by entering weight, height, age, and gender.
